@@ -1,4 +1,3 @@
-import React from 'react';
 import {datatextimage , gioithieu, datatuyendung} from '../Data/datatuyendung'
 import lienhe from '../assets/lienhe.jpg';
 import { Link } from 'react-router-dom';

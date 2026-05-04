@@ -1,4 +1,3 @@
-import React from 'react';
 import { datatextimage , datatextgioithieu } from '../Data/datagioithieu';
 import { dataLeaders } from '../Data/dataleaders';
 import Icon from '../component/icon';

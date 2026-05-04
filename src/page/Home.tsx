@@ -1,4 +1,3 @@
-import React from 'react';
 import {datatextimage , datadichvu} from '../Data/datahome';
 import Slidertintuc from '../component/Slider/Slidertintuc';
 import { Link } from 'react-router-dom';

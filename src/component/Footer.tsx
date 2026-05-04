@@ -1,4 +1,3 @@
-import React from 'react';
 import Icon from './icon';
 import logo from '../assets/BakerTilly AC white.png';
 import { Link } from 'react-router';

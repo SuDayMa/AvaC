@@ -1,4 +1,3 @@
-import React from 'react';
 import {datatextimage, datakiemtoan} from '../Data/datadichvu'
 import lienhe from '../assets/lienhe.jpg';
 import Icon from '../component/icon';

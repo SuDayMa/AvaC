@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import { datatintuc } from '../../Data/datatintuc'; // Đường dẫn tới file data của bạn

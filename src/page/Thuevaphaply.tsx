@@ -1,4 +1,3 @@
-import React from 'react';
 import { datacapnhatthuevaphaply, datatextimage } from '../Data/datathuevaphaply';
 import FeaturedSlider from '../component/Slider/Sliderthuevaphaply';
 import lienhe from '../assets/lienhe.jpg';

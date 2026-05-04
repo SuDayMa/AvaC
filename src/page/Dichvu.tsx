@@ -1,4 +1,3 @@
-import React from 'react';
 import { datatextimage, datadichvu } from '../Data/datadichvu';
 import lienhe from '../assets/lienhe.jpg';
 import { Link } from 'react-router-dom';
