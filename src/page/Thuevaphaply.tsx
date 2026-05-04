@@ -1,7 +1,6 @@
 import { datacapnhatthuevaphaply, datatextimage } from '../Data/datathuevaphaply';
 import FeaturedSlider from '../component/Slider/Sliderthuevaphaply';
 import lienhe from '../assets/lienhe.jpg';
-import Icon from '../component/icon';
 import { Link } from 'react-router-dom';
 export default function Thuevaphaply() {
 
