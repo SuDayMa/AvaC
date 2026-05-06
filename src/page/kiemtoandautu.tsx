@@ -18,7 +18,6 @@ const post = datatextimage[2];
           />
         </div>
         <div className="relative z-10 max-w-2xl">
-        {/* Nút bấm mới theo phong cách Back Button */}
         <button // Thêm sự kiện quay lại trang trước
             className="flex items-center border border-white/60 rounded-full mb-6 group hover:bg-white/10 transition-all overflow-hidden"
         >

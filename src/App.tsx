@@ -12,8 +12,11 @@ import Kiemtoanvadichvu from './page/Kiemtoanvadichvu';
 import Kiemtoandautu from './page/kiemtoandautu';
 import Tuvan from './page/tuvan';
 import Lienhe from './page/Lienhe';
+import DichvuDetail from './page/DichvuDetail';
+
 import './App.css'
-import Kiemtoanbaocao from './page/kiemtoanbaocao';
+import ThuevaphaplyDetail from './page/ThuevaphaplyDetail';
+
 
 
 function AppRouter() {
@@ -31,7 +34,8 @@ function AppRouter() {
         <Route path="/kiem-toan-dau-tu-xay-dung" element={<Kiemtoandautu />} />
         <Route path="/tu-van-va-dao-tao" element={<Tuvan />} />
         <Route path="/lien-he" element={<Lienhe />} />
-        <Route path="/kiem-toan-bao-cao-tai-chinh" element={<Kiemtoanbaocao />} />
+        <Route path="/dich-vu/:slug" element={<DichvuDetail />} />
+        <Route path="/cap-nhat-thue-va-phap-ly/:slug" element={<ThuevaphaplyDetail />} />
       </Routes>
       <Footer />
     </div>

@@ -55,7 +55,7 @@ export default function Thuevaphaply() {
         <div className="md:w-3/4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {datacapnhatthuevaphaply.map((post) => (
-              <div key={post.id} className="group cursor-pointer">
+              <Link to={post.link} key={post.id} className="group cursor-pointer">
                 <div className="aspect-video overflow-hidden mb-4 bg-gray-100">
                   <img src={post.img} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt={post.title} />
                 </div>
@@ -69,7 +69,7 @@ export default function Thuevaphaply() {
                 <p className="text-gray-500 text-[11px] line-clamp-3 leading-relaxed">
                   {post.content}
                 </p>
-              </div>
+              </Link>
             ))}
           </div>
           

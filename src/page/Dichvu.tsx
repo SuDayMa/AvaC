@@ -48,9 +48,9 @@ export default function Dichvu() {
                 {item.content}
               </p>
                <div className="mt-4 flex items-center opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500">
-              <button className="text-[10px] font-black uppercase tracking-widest border-b-2 border-gray-200 group-hover:border-[#7ca91e] pb-1 transition-all">
+              <Link to={item.link} className="text-[10px] font-black uppercase tracking-widest border-b-2 border-gray-200 group-hover:border-[#7ca91e] pb-1 transition-all">
                 Xem chi tiết 
-              </button>
+              </Link>
               </div>
             </div>
           ))}
