@@ -40,5 +40,8 @@ function Icon(props: { name: string }) {
       else if(props.name === 'close') {
         return<i className='bx bx-x' ></i>
       }
+      else if(props.name === 'search') {
+        return <i className='bx bx-search' ></i>
+      }
 }
 export default Icon;
