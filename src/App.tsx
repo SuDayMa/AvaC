@@ -14,7 +14,7 @@ import Tuvan from './page/tuvan';
 import Lienhe from './page/Lienhe';
 import './App.css'
 import ThuevaphaplyDetail from './page/ThuevaphaplyDetail';
-import DichvuDetail from './page/DichvuDetail';
+import DichvuDetail from './page/DichvuDetails';
 
 
 

@@ -3,7 +3,7 @@ import { datadetail } from '../Data/datadichvu'; // Sử dụng đúng kho dữ 
 import lienhe from '../assets/lienhe.jpg';
 import Icon from '../component/icon';
 
-export default function DichvuDetail() {
+export default function DichvuDetails() {
     const { slug } = useParams<{ slug: string }>();
     
     const post = slug ? datadetail[slug as keyof typeof datadetail] : null;
