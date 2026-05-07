@@ -12,10 +12,9 @@ import Kiemtoanvadichvu from './page/Kiemtoanvadichvu';
 import Kiemtoandautu from './page/kiemtoandautu';
 import Tuvan from './page/tuvan';
 import Lienhe from './page/Lienhe';
-import DichvuDetail from './page/DichvuDetail';
-
 import './App.css'
 import ThuevaphaplyDetail from './page/ThuevaphaplyDetail';
+import DichvuDetail from './page/DichvuDetail';
 
 
 
