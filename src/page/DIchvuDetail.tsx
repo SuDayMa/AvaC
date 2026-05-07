@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { datadetail } from '../Data/datadichvu'; // Sử dụng đúng kho dữ liệu chi tiết
 import lienhe from '../assets/lienhe.jpg';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Icon from './icon';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/BakerTilly AC.png';

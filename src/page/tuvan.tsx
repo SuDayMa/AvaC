@@ -1,5 +1,4 @@
-import { datatextimage, datatuvan } from '../Data/datadichvu';
-import lienhe from '../assets/lienhe.jpg';
+import { datatextimage } from '../Data/datadichvu';
 import Icon from '../component/icon';
 import { Link } from 'react-router-dom';
 
