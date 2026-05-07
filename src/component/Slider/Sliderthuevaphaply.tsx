@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 
 // Import dữ liệu
 import { datacapnhatthuevaphaply } from "../../Data/datathuevaphaply";
+import { Link } from "react-router-dom";
 
 export default function FeaturedSlider() {
     const dataFeatured = datacapnhatthuevaphaply;
@@ -49,9 +50,9 @@ export default function FeaturedSlider() {
           </p>
           
           {/* mt-auto đẩy nút xuống dưới cùng nếu phần chữ ngắn */}
-          <button className="bg-[#1f2937] text-white text-[10px] font-bold py-3 px-8 w-fit hover:bg-[#7ca91e] transition-colors uppercase tracking-widest mt-auto">
+          <Link to={item.link} className="bg-[#1f2937] text-white text-[10px] font-bold py-3 px-8 w-fit hover:bg-[#7ca91e] transition-colors uppercase tracking-widest mt-auto">
             Đọc tiếp
-          </button>
+          </Link>
         </div>
       </div>
     </SwiperSlide>

@@ -34,5 +34,11 @@ function Icon(props: { name: string }) {
       else if(props.name === 'left') {
         return <i className='bx bx-chevron-left' ></i>
       }
+      else if(props.name === 'menu') {
+        return<i className='bx bx-menu'></i>
+      }
+      else if(props.name === 'close') {
+        return<i className='bx bx-x' ></i>
+      }
 }
 export default Icon;
