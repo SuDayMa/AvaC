@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="space-y-4">
           <img src={logo} alt="Baker Tilly A&C" className="h-13 w-auto" />
           <div className="text-sm leading-relaxed">
-            <p>CHI NHÁNH MIỀN TRUNG - NHA TRANG</p>
+            <p>CHI NHÁNH MIỀN TRUNG</p>
             <p>Lô STH 06A.01 Đường số 13, Khu đô thị Lê Hồng Phong II, Phường Nam Nha Trang, Tỉnh Khánh Hòa, Việt Nam</p>
           </div>
           <div className="flex space-x-3 pt-2">
