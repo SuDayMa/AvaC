@@ -114,7 +114,7 @@ export default function ThuevaphaplyDetail() {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                 {datacapnhatthuevaphaply.map((post, index) => (
-                    <div key={index} className="text-left group cursor-pointer">
+                    <Link to={post.link} key={index} className="text-left group cursor-pointer">
                     {/* Cố định khung hình ảnh (ví dụ tỉ lệ 16:9) */}
                     <div className="aspect-video mb-4 overflow-hidden bg-gray-200">
                         <img 
@@ -130,7 +130,7 @@ export default function ThuevaphaplyDetail() {
                     <h4 className="text-sm font-black uppercase leading-snug group-hover:text-[#7ca91e] transition-colors line-clamp-2">
                         {post.title}
                     </h4>
-                    </div>
+                    </Link>
                 ))}
                 </div>
             </div>
